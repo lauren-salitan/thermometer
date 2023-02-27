@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body class="thermo_body">
+<div class="new-thermo">
+    <div class="new-thermo-container">
+        <div class="new-thermo-things">
+            <div class="mercury-holder">
+                <div id="new-thermometer-mercury"></div>
+            </div>
+            <div class="new-thermometer-bulb"></div>
+            <div class="new-thermometer-tube"></div>
+        </div>
+        <div class="new-thermometer-labels" id="new-farenheit-thermometer-labels">
+            <span class="new-thermometer-label">0&deg;</span>
+            <span class="new-thermometer-label">10&deg;</span>
+            <span class="new-thermometer-label">20&deg;</span>
+            <span class="new-thermometer-label">30&deg;</span>
+            <span class="new-thermometer-label">40&deg;</span>
+            <span class="new-thermometer-label">50&deg;</span>
+            <span class="new-thermometer-label">60&deg;</span>
+            <span class="new-thermometer-label">70&deg;</span>
+            <span class="new-thermometer-label">80&deg;</span>
+            <span class="new-thermometer-label">90&deg;</span>
+            <span class="new-thermometer-label">100&deg;</span>
+        </div>
+    </div>
+    <div class="new-temp-and-buttons">
+        <div id="new-current-temp"><span id="new-f-number">50</span>&deg;F</div>
+        <div class="buttons">
+            <button onclick="newUp()">Up</button>
+            <button onclick="newDown()">Down</button>
+        </div>
+    </div>
+</div>
+</body>
+<script src="index.js"></script>
+</html>
